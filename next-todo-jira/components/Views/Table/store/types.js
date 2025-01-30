@@ -1,0 +1,7 @@
+export const SET_LOADING = 'SET_LOADING'
+export const SET_DATA = 'SET_DATA'
+export const SET_MESSAGE = 'SET_MESSAGE'
+export const CLEAR_MESSAGE = 'CLEAR_MESSAGE'
+export const SET_SEARCH_VALUE = 'SET_SEARCH_VALUE'
+export const SET_PAGE_SIZE = 'SET_PAGE_SIZE'
+export const SET_PAGE_INDEX = 'SET_PAGE_INDEX'

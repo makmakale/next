@@ -1,0 +1,94 @@
+.container {
+    @apply
+    w-full
+    flex space-x-4
+    py-4
+    overflow-x-auto
+}
+
+.column {
+    @apply
+    w-full
+    min-w-[340px]
+    flex flex-col
+    border
+    p-2
+    rounded-sm
+    bg-primary-foreground
+}
+
+.column_title {
+    @apply
+    font-[500]
+    text-xl
+    flex justify-between items-center
+    px-1.5
+    pt-2
+}
+
+.column_title span {
+    @apply
+    w-5 h-5
+    rounded-full
+    shadow
+    flex justify-center items-center
+    bg-gray-300
+    text-xs
+    text-black
+}
+
+.column_tasks {
+    @apply
+    flex-grow
+    rounded-md
+    mt-4
+    flex flex-col
+}
+
+.task_list {
+    @apply
+    flex-grow
+    rounded-xl
+    flex flex-col
+    space-y-2
+    max-h-[70vh]
+    overflow-y-auto
+    mb-2
+}
+
+.task {
+    @apply
+    mx-2
+}
+
+.task_type {
+    @apply
+    border
+    rounded-full
+    shadow
+    text-sm
+    py-1
+    px-2.5
+    w-fit
+    flex items-center
+    h-fit
+}
+
+.task_type span {
+    @apply
+    w-4 h-4
+    rounded-full
+    mr-2
+}
+
+.task_priority {
+    @apply
+    border
+    rounded-full
+    shadow
+    text-sm
+    py-1
+    px-2.5
+    w-fit
+    flex items-center
+}
